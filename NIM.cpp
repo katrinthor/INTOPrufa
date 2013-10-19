@@ -68,7 +68,7 @@ void spila( )
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
 	cout << "Yttu a einhvern lykil: " << endl;
 
-	srand( time( 0 ) );	
+	srand( time( 0 ) );
 
 	hrugufjoldi = ( (rand( ) % 8 ) + 2 );
 	cout << "Vid spilum med " << hrugufjoldi << " hrugur. " << endl;
@@ -105,6 +105,7 @@ void hjalp( )
 	cout << "einni hrugu i einu.  Sa sem tekur sidustu eldspytuna " << endl;
 	cout << "ur sidustu hrugunni vinnur.  Gangi ykkur vel! " << endl << endl;
 	cout << "Sladu a einhvern lykil... " << endl;
+	cout << "Katrin heiti eg." << endl;
 	getchar( );
 }
 
@@ -204,7 +205,7 @@ void tolva( int* hruga )
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytur ur hrugu nr. ";
 	}
-	else 
+	else
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
 	}
